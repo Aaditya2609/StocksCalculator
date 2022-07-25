@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+:root {
+  --black: #000000ff;
+  --rich-black-fogra-39: #111111ff;
+  --jet: #333333ff;
+  --white: #ffffffff;
+  --flickr-blue: #0761d1ff;
+  --french-rose: #ea558dff;
+  --blue-crayola: #2f71e8ff;
+  --cyan-process: #29b9f0ff;
+  --green: #39ff14;
+}
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: whitesmoke;
+}
+h1 {
+  font-size: 45px;
+  margin: 0 auto;
+  max-width: 400px;
+  background: linear-gradient(
+    to right,
+    var(--french-rose) 40%,
+    var(--cyan-process) 60%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+body {
+  background-color: var(--rich-black-fogra-39);
+}
+label {
+  display: block;
+  text-align: center;
+  margin: 1rem auto 0.5rem;
+  font-weight: 600;
+  font-size: 25px;
+}
+input {
+  display: block;
+  text-align: center;
+  margin: 0.5rem auto;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border: 3px solid var(--cyan-process);
+  border-radius: 2rem;
+  max-width: 140px;
+}
+button {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0.5rem auto;
+  text-align: center;
+  background-color: var(--rich-black-fogra-39);
+  color: white;
+  border: 3px solid var(--french-rose);
+  border-radius: 2rem;
+  font-weight: 500;
+}
+p {
+  font-size: 25px;
+  font-weight: 700;
+  max-width: 350px;
+  text-align: center;
+  margin: 1rem auto;
+}
